@@ -1,0 +1,120 @@
+{
+"data":[
+{
+	"id":"1",
+	"pergunta":" A quantidade de asas entregues pelo Departamento de Voo Angelical aumentou. Sabendo
+que 2360 asas foram entregues pelo D.V.A. no ano anterior e que agora este valor aumentou
+em 10%. Quantas asas foram entregues? ",
+	"resposta":[
+	"2596 asas",
+	"2304 asas",
+	"4321 asas",
+ 	"5402 asas" 
+	]
+	
+},
+{
+	"id":"2",
+	"pergunta":" No inferno, a cotação do enxofre caiu. Se o preço anterior era de R$ 4,50/kg do enxofre e a
+cotação caiu em 4%. Qual é o preço atual? ",
+	"resposta":[
+		"R$ 4,32",
+		"R$ 3,21",
+		"R$ 5,32",
+		"R$ 4,64" 
+
+	]
+},
+{
+	"id":"3",
+	"pergunta":" Após o insucesso nas vendas em sua loja, “O Baazar do Capiroto” um mercador reclama que
+precisou baixar o preço dos tridentes de R$ 4.320,00 para R$ 3.456,00. Qual foi a % de redução do
+valor dos tridentes? ",
+	"resposta":[
+		"20%",
+		"30%",
+		"25%",
+		"15%" 
+	]
+},
+{
+	"id":"4",
+	"pergunta":"O Jornal Angelical noticia que houve um acréscimo de 30% nas orações deste ano,
+totalizando 20.800. Com base nisso, qual foi o número de orações em 2016?",
+	"resposta":[
+		"16.000",
+		"6.240",
+		"4.800",
+		"14.560" 
+
+	]
+},
+{
+	"id":"5",
+	"pergunta":"Um anjo resolveu fazer uma poupança divina e, através de juros simples, aplicou o capital de R$1.200,00 a uma taxa de 20% ao mês durante 14 meses. Determine os juros dessa aplicação. ",
+	"resposta":[
+		"R$3.360,00",
+		"R$2.340,00", 
+		"R$1.244,44",
+		"R$5.654,00"
+	]
+},
+{
+	"id":"6",
+	"pergunta":" Um Serafim faz um empréstimo de R$80.000,00, sob o regime de juro simples, com 1% de juros ao mês. Qual será sua dívida após 4 meses? ",
+	"resposta":[
+		"R$ 83.200,00",
+		"R$ 86.200,00",
+		"R$ 83.800,00",
+		"R$ 88.200,00" 
+	]
+},
+{
+	"id":"7",
+	"pergunta":" No Céubank, um cliente recebeu o extrato com os dados da conta. Nela constava que apoupança gerou um juro de R$ 3.000,00. Sendo que a taxa de juros simples paga pelo banco era de 5% ao mês e o cliente havia deixado seu dinheiro na poupança durante 2 meses. Qual foi o capital inicialmente aplicado? ",
+	"resposta":[
+		"R$ 30.000,00",
+		"R$ 33.000,00",
+		"R$ 36.000,00",
+		"R$ 27.000,00" 
+
+	]
+},
+{
+	"id":"8",
+	"pergunta":" Um investidor aplicou a quantia de R$ 500,00 na Caixa Econômica Querubim, em um fundo divino que opera no regime de juros simples. Após 5 meses o investidor verificou que o
+montante era de R$ 1.000,00. Qual foi a taxa de juros desse fundo de investimento? ",
+	"resposta":[
+		"20%",
+		"30%",
+		"40%",
+		"25%" 
+
+	]
+},
+{
+	"id":"9",
+	"pergunta":" Após um acordo com o gerente do Belzebank, um cliente fez um empréstimo de R$ 5.000,00
+no regime de juros compostos. Sabendo que a taxa de juros mensal é de 20%, quanto o cliente
+estará devendo após 2 meses? ",
+	"resposta":[
+		"R$ 7.200,00",
+		"R$ 10.240,00",
+		"R$ 12.420,00",
+		"R$ 14.640,00"
+	]
+},
+{
+	"id":"10",
+	"pergunta":" Um cliente fez uma dívida de R$ 18.000,00 no Satander. Sabendo que o banco cobra 30%
+de juro composto ao mês e o cliente deixou de pagar durante 3 meses. Qual foi o valor inicial
+emprestado? (Aproximadamente) ",
+	"resposta":[
+		"R$ 8.200,00",
+		"R$ 10.240,00",
+		"R$ 6.400,00",
+		"R$ 3.600,00" 
+	]
+}
+]
+}

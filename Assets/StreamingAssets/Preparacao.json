@@ -1,0 +1,105 @@
+{
+"data":[
+{
+"id":"1",
+"pergunta":"O que equivale à expressão 'três quintos'?",
+"resposta":[
+"60%",
+"20%",
+"30%",
+"35%"
+]
+
+},
+{
+"id":"2",
+"pergunta":"Quanto é 40% de R$ 20,00?",
+"resposta":[
+"R$ 8,00",
+"R$ 10,00",
+"R$ 12,00",
+"R$ 14,00"
+]
+},
+{
+"id":"3",
+"pergunta":"R$ 30,00 equivalem a 15% de um valor. Qual valor é este?",
+"resposta":[
+"R$ 200,00",
+"R$ 300,00",
+"R$ 150,00",
+"R$ 185,00"
+]
+},
+{
+"id":"4",
+"pergunta":"Quanto é 2 elevado à 3ª potência?",
+"resposta":[
+"8",
+"2",
+"6",
+"16"
+]
+},
+{
+"id":"5",
+"pergunta":"Resolva a operação:( 2 x 3 ) / ((3 + 1) x 9 )",
+"resposta":[
+"1/6",
+"3/2",
+"27/2",
+"6/12"
+]
+},
+{
+"id":"6",
+"pergunta":"Resolva a operação: 40 ÷ 0,25",
+"resposta":[
+"160",
+"10",
+"16",
+"100"
+]
+},
+{
+"id":"7",
+"pergunta":"O Termômetro subiu 6 graus, o que representa a metade da temperatura de antes. A quantos graus está agora?",
+"resposta":[
+"18",
+"16",
+"8",
+"6"
+]
+},
+{
+"id":"8",
+"pergunta":"Quanto vale em porcentagem a fração 7/8?",
+"resposta":[
+"87,5%",
+"78%",
+"70%",
+"80%"
+]
+},
+{
+"id":"9",
+"pergunta":"Qual fração representa 36%?",
+"resposta":[
+"9/25",
+"100/36",
+"6/10",
+"36/25"
+]
+},
+{
+"id":"10",
+"pergunta":"Resolva a equação: 2 + 3 x 4 x ( 6 + 4 ) / 10 ",
+"resposta":[
+"14",
+"20",
+"140",
+"200"
+]
+}
+]
+}

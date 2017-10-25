@@ -1,0 +1,107 @@
+{
+"data":[
+{
+	"id":"1",
+	"pergunta":"Basico 1",
+	"resposta":[
+		"R$ 15.000",
+		"R$ 2.000",
+		"R$ 10.000",
+		"R$ 20.000"
+	]
+	
+},
+{
+	"id":"2",
+	"pergunta":"Basico 2",
+	"resposta":[
+		"4 anos",
+		"3,5 anos",
+		"4,5 anos",
+		"5 anos"
+	]
+},
+{
+	"id":"3",
+	"pergunta":"Basico 3",
+	"resposta":[
+		"R$ 698",
+		"R$ 690",
+		"R$ 700",
+		"R$ 650"
+	]
+},
+{
+	"id":"4",
+	"pergunta":"Basico 4",
+	"resposta":[
+		"R$ 10.824,32",
+		"R$ 12.483,24",
+		"R$ 10.248,32",
+		"R$ 10.832,24"
+				 
+	]
+},
+{
+	"id":"5",
+	"pergunta":"Basico 5",
+	"resposta":[
+		"R$ 2.431,41",
+		"R$ 2161,20",
+		"R$ 2.735,08",
+		"R$ 2.142,12" 
+	]
+},
+{
+	"id":"6",
+	"pergunta":"Basico 6",
+	"resposta":[
+		"IMP",
+		"1",
+		"12",
+		"22"
+	]
+},
+{
+	"id":"7",
+	"pergunta":"Basico 7",
+	"resposta":[
+		"R$ 1.750",
+		"R$ 1.650",
+		"R$ 1.550",
+		"R$ 2.000" 
+	]
+},
+{
+	"id":"8",
+	"pergunta":"Basico 8 ",
+
+	"resposta":[
+		"16",
+		"15",
+		"17",
+		"10"
+	]
+},
+{
+	"id":"9",
+	"pergunta":"Basico 9",
+	"resposta":[
+		"R$ 46,15",
+		"3",
+		"9",
+		"6"
+	]
+},
+{
+	"id":"10",
+	"pergunta":"Basico 10",
+	"resposta":[
+		"16",
+		"15",
+		"17",
+		"10"
+	]
+}
+]
+}

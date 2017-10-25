@@ -1,0 +1,105 @@
+{
+"data":[
+{
+	"id":"1",
+	"pergunta":"Qual seria a taxa bimestral do rendimento de uma poupança para que consiga obter os mesmos R$33.000,00 e comprar o VOLKSWAGEN FOX 1.0, num período de três anos, sabendo que na sua poupança você já tenha acumulado um valor de R$17.000,00?",
+	"resposta":[
+		"2,02%",
+		"3,75%",
+		"6,4%",
+		"19"
+	]
+	
+},
+{
+	"id":"2",
+	"pergunta":"20 / 5 =",
+	"resposta":[
+		"4",
+		"3",
+		"2",
+		"1"
+	]
+},
+{
+	"id":"3",
+	"pergunta":"16 + 6 = ",
+	"resposta":[
+		"22",
+		"21",
+		"20",
+		"24"
+	]
+},
+{
+	"id":"4",
+	"pergunta":"2 * 4 =",
+	"resposta":[
+		"8",
+		"6",
+		"10",
+		"12"
+	]
+},
+{
+	"id":"5",
+	"pergunta":"1+4*2",
+	"resposta":[
+		"8",
+		"10",
+		"12",
+		"14"
+	]
+},
+{
+	"id":"6",
+	"pergunta":"A+1=10 , B+A=11 C= ?",
+	"resposta":[
+		"IMP",
+		"1",
+		"12",
+		"22"
+	]
+},
+{
+	"id":"7",
+	"pergunta":"44/11",
+	"resposta":[
+		"4",
+		"2",
+		"5",
+		"8"
+	]
+},
+{
+	"id":"8",
+	"pergunta":"1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1 = ",
+	"resposta":[
+		"16",
+		"15",
+		"17",
+		"10"
+	]
+},
+{
+	"id":"9",
+	"pergunta":"Um aparelho DVD Player custa a vista R$ 250,00. Se eu pago sem entrada em 6 prestações mensais a uma taxa de juros de 3% a.m., qual sera o valor de cada parcela mensal?",
+	"resposta":[
+		"R$ 46,15",
+		"3",
+		"9",
+		"6"
+	]
+},
+{
+	"id":"10",
+	"pergunta":"1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1 = ",
+	"resposta":[
+		"16",
+		"15",
+		"17",
+		"10"
+	]
+}
+]
+}
