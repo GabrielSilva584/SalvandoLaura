@@ -79,7 +79,7 @@ public class Animated_Text : MonoBehaviour {
 		
 	// Update is called once per frame
 	void Update () {
-		if(Input.GetKeyDown(KeyCode.Space)){
+		if(Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0)){
 			
 			if (caracterIndex < falas [falasIndex].Length) {
 				caracterIndex = falas [falasIndex].Length;

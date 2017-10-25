@@ -213,14 +213,14 @@ public class Perguntas : MonoBehaviour {
 		float timeToWait;
 		if (PlayerPrefs.GetInt ("question") == 0) {
 			//Fase teste Tempo 1:17
-			timeToWait = 60f;
+			timeToWait = 60;
 			tempo.text = timeToWait.ToString ();
 		} else { //Fase Vamos la, Tempo 2:00 
-			timeToWait = 180f;
+			timeToWait = 180;
 			tempo.text = timeToWait.ToString ();
 		}
 		 
-		float incrementToRemove = 0.05f;
+		float incrementToRemove = 1;
 		float x = time.fillAmount / timeToWait * incrementToRemove;
 
 		while(timeToWait>0){
@@ -232,7 +232,6 @@ public class Perguntas : MonoBehaviour {
 				tempo.text = timeToWait.ToString ();
 			}else{
 				timeToWait = 0;
-				tempo.text = timeToWait.ToString ();
 			}
 
 		}
