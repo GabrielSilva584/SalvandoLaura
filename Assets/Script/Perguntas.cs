@@ -3,6 +3,7 @@ using System.Collections;
 using LitJson;
 using UnityEngine.UI;
 using UnityEngine.Audio;
+using System.Collections.Generic;
 
 public class Perguntas : MonoBehaviour {
 
@@ -10,6 +11,7 @@ public class Perguntas : MonoBehaviour {
 	public string jsonString;
 	public JsonData perguntaData;
 	public int numPergunta = 0;
+	public int numPergunta2 = 0;
 	public GameObject resposta;
 	public bool proximaPergunta;
 	public bool clickQuadro;
@@ -17,6 +19,8 @@ public class Perguntas : MonoBehaviour {
 	public Font myFont;
 	public GameObject background;
 	public Text tempo;
+
+	public List<int> PerguntasFeitas;
 
 	//Parte dos audios
 	//
@@ -27,12 +31,11 @@ public class Perguntas : MonoBehaviour {
 	// Use this for initialization
 	void Start ()
 	{
-		
-			// Audio Source responsavel por emitir os sons
-
+		// Audio Source responsavel por emitir os sons
 		AudioSource.Play();
 		AudioSource2.Stop();
 		AudioSource1.Stop ();
+		PerguntasFeitas = new List<int> ();
 
 	}
 	public void SoalBegin(string jsonName){
@@ -49,14 +52,14 @@ public class Perguntas : MonoBehaviour {
 			yield return www;
 			jsonString = www.text;
 			perguntaData = JsonMapper.ToObject (jsonString);
+			numPergunta = getRandPergunta();
 			OnClick ();
 		} else {
 			jsonString = System.IO.File.ReadAllText(filePath);
 			perguntaData = JsonMapper.ToObject (jsonString);
+			numPergunta = getRandPergunta();
 			OnClick ();
 		}
-		
-		
 	}
 	
 	public void OnClick(){
@@ -115,8 +118,6 @@ public class Perguntas : MonoBehaviour {
 				AudioSource1.Stop ();
 
 			}
-			
-
 
 			if (PlayerPrefs.GetInt ("question") == 0) {//Quando estou na fase Teste
 				Debug.Log ("T1 = " + PlayerPrefs.GetInt ("notaT"));
@@ -181,7 +182,8 @@ public class Perguntas : MonoBehaviour {
 					opcaoResposta.transform.SetSiblingIndex (Random.Range (0, 3));
 				}
 		
-				numPergunta++;
+				numPergunta = getRandPergunta ();
+				numPergunta2++;
 				proximaPergunta = false;
 				clickQuadro = true;
 				StartCoroutine ("Timer");
@@ -193,12 +195,12 @@ public class Perguntas : MonoBehaviour {
 			if (x == "0") {
 				score++;
 				GameObject.Find ("RespostaCerta").GetComponent<Button> ().image.color = Color.green;
-				GameObject.Find("Image ("+numPergunta+")").GetComponent<Image>().color = Color.green;
+				GameObject.Find("Image ("+numPergunta2+")").GetComponent<Image>().color = Color.green;
 				Debug.Log ("Acertou");
 			} else {
 				GameObject.Find ("RespostaErrada" + x).GetComponent<Button> ().image.color = Color.red;
 				GameObject.Find ("RespostaCerta").GetComponent<Button> ().image.color = Color.green;
-				GameObject.Find("Image ("+numPergunta+")").GetComponent<Image>().color = Color.red;
+				GameObject.Find("Image ("+numPergunta2+")").GetComponent<Image>().color = Color.red;
 				Debug.Log ("Errou");
 			}
 		}
@@ -246,5 +248,27 @@ public class Perguntas : MonoBehaviour {
 			proximaPergunta = true;
 		}
 
+	}
+
+	int getRandPergunta(){
+		int i = 1;
+		int novaPergunta = 0;
+
+		if (perguntaData ["data"].Count == PerguntasFeitas.Count)
+			return perguntaData ["data"].Count;
+		
+		while (i == 1) {
+			i = 0;
+			novaPergunta = Random.Range (0, perguntaData ["data"].Count);
+
+			foreach (int pergunta in PerguntasFeitas) {
+				if (novaPergunta == pergunta)
+					i = 1;
+			}
+		}
+
+		Debug.Log ("novaPergunta =" + novaPergunta);
+		PerguntasFeitas.Add (novaPergunta);
+		return novaPergunta;
 	}
 }

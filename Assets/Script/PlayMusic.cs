@@ -12,7 +12,7 @@ public class PlayMusic : MonoBehaviour
 	private AudioSource teste;
 	void Start() 
 	{
-		slider.value = 0.5f;
+//		slider.value = 0.5f;
 
 	}
 
