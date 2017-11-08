@@ -1,9 +1,5 @@
 {
-"config":
-{
-"perguntas":"10"
-}
-,
+"perguntas":10,
 "data":[
 {
 "id":"1",

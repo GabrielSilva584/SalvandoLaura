@@ -1,7 +1,9 @@
 {
+"perguntas":10,
 "data":[
 {
 	"id":"1",
+	"tempo":"60",
 	"pergunta":" A quantidade de asas entregues pelo Departamento de Voo Angelical aumentou. Sabendo
 que 2360 asas foram entregues pelo D.V.A. no ano anterior e que agora este valor aumentou
 em 10%. Quantas asas foram entregues? ",
@@ -15,6 +17,7 @@ em 10%. Quantas asas foram entregues? ",
 },
 {
 	"id":"2",
+	"tempo":"60",
 	"pergunta":" No inferno, a cotação do enxofre caiu. Se o preço anterior era de R$ 4,50/kg do enxofre e a
 cotação caiu em 4%. Qual é o preço atual? ",
 	"resposta":[
@@ -27,6 +30,7 @@ cotação caiu em 4%. Qual é o preço atual? ",
 },
 {
 	"id":"3",
+	"tempo":"60",
 	"pergunta":" Após o insucesso nas vendas em sua loja, “O Baazar do Capiroto” um mercador reclama que
 precisou baixar o preço dos tridentes de R$ 4.320,00 para R$ 3.456,00. Qual foi a % de redução do
 valor dos tridentes? ",
@@ -39,6 +43,7 @@ valor dos tridentes? ",
 },
 {
 	"id":"4",
+	"tempo":"60",
 	"pergunta":"O Jornal Angelical noticia que houve um acréscimo de 30% nas orações deste ano,
 totalizando 20.800. Com base nisso, qual foi o número de orações em 2016?",
 	"resposta":[
@@ -51,6 +56,7 @@ totalizando 20.800. Com base nisso, qual foi o número de orações em 2016?",
 },
 {
 	"id":"5",
+	"tempo":"60",
 	"pergunta":"Um anjo resolveu fazer uma poupança divina e, através de juros simples, aplicou o capital de R$1.200,00 a uma taxa de 20% ao mês durante 14 meses. Determine os juros dessa aplicação. ",
 	"resposta":[
 		"R$3.360,00",
@@ -61,6 +67,7 @@ totalizando 20.800. Com base nisso, qual foi o número de orações em 2016?",
 },
 {
 	"id":"6",
+	"tempo":"60",
 	"pergunta":" Um Serafim faz um empréstimo de R$80.000,00, sob o regime de juro simples, com 1% de juros ao mês. Qual será sua dívida após 4 meses? ",
 	"resposta":[
 		"R$ 83.200,00",
@@ -71,6 +78,7 @@ totalizando 20.800. Com base nisso, qual foi o número de orações em 2016?",
 },
 {
 	"id":"7",
+	"tempo":"60",
 	"pergunta":" No Céubank, um cliente recebeu o extrato com os dados da conta. Nela constava que apoupança gerou um juro de R$ 3.000,00. Sendo que a taxa de juros simples paga pelo banco era de 5% ao mês e o cliente havia deixado seu dinheiro na poupança durante 2 meses. Qual foi o capital inicialmente aplicado? ",
 	"resposta":[
 		"R$ 30.000,00",
@@ -82,6 +90,7 @@ totalizando 20.800. Com base nisso, qual foi o número de orações em 2016?",
 },
 {
 	"id":"8",
+	"tempo":"60",
 	"pergunta":" Um investidor aplicou a quantia de R$ 500,00 na Caixa Econômica Querubim, em um fundo divino que opera no regime de juros simples. Após 5 meses o investidor verificou que o
 montante era de R$ 1.000,00. Qual foi a taxa de juros desse fundo de investimento? ",
 	"resposta":[
@@ -94,6 +103,7 @@ montante era de R$ 1.000,00. Qual foi a taxa de juros desse fundo de investiment
 },
 {
 	"id":"9",
+	"tempo":"60",
 	"pergunta":" Após um acordo com o gerente do Belzebank, um cliente fez um empréstimo de R$ 5.000,00
 no regime de juros compostos. Sabendo que a taxa de juros mensal é de 20%, quanto o cliente
 estará devendo após 2 meses? ",
@@ -106,6 +116,7 @@ estará devendo após 2 meses? ",
 },
 {
 	"id":"10",
+	"tempo":"60",
 	"pergunta":" Um cliente fez uma dívida de R$ 18.000,00 no Satander. Sabendo que o banco cobra 30%
 de juro composto ao mês e o cliente deixou de pagar durante 3 meses. Qual foi o valor inicial
 emprestado? (Aproximadamente) ",

@@ -63,7 +63,7 @@ public class Perguntas : MonoBehaviour {
 	}
 	
 	public void OnClick(){
-		if (numPergunta >= perguntaData ["data"].Count) {	
+		if (numPergunta2 >= int.Parse(perguntaData ["perguntas"].ToString())) {	
 			
 			MenuManager menuResult = GameObject.Find("Canvas").GetComponent<MenuManager>();
 			if(score == perguntaData["data"].Count && PlayerPrefs.GetInt ("question") == 1){//10
@@ -154,8 +154,9 @@ public class Perguntas : MonoBehaviour {
 				}
 		
 			GameObject.Find ("Perguntas/Panel/PerguntasQ/Pergunta").GetComponentInChildren<Text> ().text = perguntaData ["data"] [numPergunta] ["pergunta"].ToString ();
-		
-				for (int i=0; i<perguntaData["data"][numPergunta]["resposta"].Count; i++) {
+				
+				//Alternativas
+			for (int i=0; i<perguntaData["data"][numPergunta]["resposta"].Count; i++) {
 			
 				GameObject opcaoResposta = Instantiate (resposta);
 					opcaoResposta.GetComponentInChildren<Text> ().text = perguntaData ["data"] [numPergunta] ["resposta"] [i].ToString ();
@@ -213,14 +214,10 @@ public class Perguntas : MonoBehaviour {
 		Text tempo = GameObject.Find ("Tempo").GetComponent<Text> ();
 		time.fillAmount = 1;
 		float timeToWait;
-		if (PlayerPrefs.GetInt ("question") == 0) {
-			//Fase teste Tempo 1:17
-			timeToWait = 60;
-			tempo.text = timeToWait.ToString ();
-		} else { //Fase Vamos la, Tempo 2:00 
-			timeToWait = 180;
-			tempo.text = timeToWait.ToString ();
-		}
+
+		//timeToWait = 60;
+		timeToWait =  float.Parse(perguntaData ["data"][numPergunta]["tempo"].ToString());
+		tempo.text = timeToWait.ToString ();
 		 
 		float incrementToRemove = 1;
 		float x = time.fillAmount / timeToWait * incrementToRemove;
